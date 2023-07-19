@@ -1,50 +1,65 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <form action="" method="get">
-        <input type="text" value="Name" id="name" required>
-        <input type="email" value="Email" id="email" required>
-        <br>
-        <input type="radio" name="gender" required="true" id="">
-           <label for="Male">Male</label>
-
-           <input type="radio" name="Gender" required="true" id="">
-           <label for="Female">Female</label>
-        <br>
-           <input type="checkbox" name="laptops" id="">
-        <label for="Apple">Apple</label>
-        <input type="checkbox" name="laptops" id="">
-
-        <label for="Asus">Asus</label>
-        <input type="checkbox" name="laptops" id="">
-
-        <label for="HP">HP</label>
-
-        <br>Age:  <input type="number" name="Age" id="age" required>
-        
-        <br>Dob:  <input type="date" name="dob" id="dob" required>
-        <br>password:<input type="password" name="password" id="password" required>
-        <br>
-        
-        <input type="url" name="url" id="portfolio">
-
+    <form action="#" method="post" id="jobApplicationForm">
+        <!-- Name -->
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
         <br>
 
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+
+        <!-- Gender -->
+        <label>Gender</label>
+        <input type="radio" name="gender" id="male" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female" required>
+        <label for="female">Female</label>
+        <br>
+
+        <!-- Laptop Brands -->
+        <label for="laptop">Laptop Brands</label>
+        <input type="checkbox" name="laptops" id="apple" value="Apple">
+        <label for="apple">Apple</label>
+        <input type="checkbox" name="laptops" id="asus" value="Asus">
+        <label for="asus">Asus</label>
+        <input type="checkbox" name="laptops" id="hp" value="HP">
+        <label for="hp">HP</label>
+        <br>
+
+        <!-- Age -->
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" required>
+        <br>
+
+        <!-- Date of Birth -->
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob" required>
+        <br>
+
+        <!-- Password -->
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required>
+        <br>
+
+        <!-- Portfolio URL -->
+        <label for="portfolio">Portfolio URL</label>
+        <input type="url" name="portfolio" id="portfolio">
+        <br>
+
+        <!-- Submit Button -->
         <button type="submit">Submit</button>
     </form>
-    
-    
-    
-    
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
